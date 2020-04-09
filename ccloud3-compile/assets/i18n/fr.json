@@ -274,7 +274,11 @@
         "ENABLE_LOG": "Activer le journal des événements",
         "DISABLE_LOG": "Désactiver le journal des événements",
         "DELETE_PROGRAM": "Supprimer le programme",
-        "REBOOT": "Redémarrer le diffuseur"
+        "REBOOT": "Redémarrer le diffuseur",
+      "LOCAL": "Changement de fuseau horaire",
+      "CAMERA_CONFIG": "Capture d'écran de la caméra",
+      "AUTO_UPLOAD": "Commutateur de rapport automatique de la caméra",
+      "ORIENTATION": "Définir la rotation de l'écran"
     },
     "LOGIN": {
         "AUTH": {
@@ -1510,7 +1514,20 @@
             "DATE": "Date",
             "DESCRIPTION": "Description",
             "CONTENT": "Liste de diffusion",
-            "LABEL": "Journal du diffuseur"
+            "LABEL": "Journal du diffuseur",
+          "STATUS": "Changer l'état de l'écran",
+          "MISSING_RESOURCE": "Aucune ressource trouvée pendant la lecture d'un spectacle",
+          "DELETE_PROGRAM": "Supprimer le spectacle",
+          "INVALID_PROGRAM": "Le spectacle ne peut pas être téléchargé",
+          "PROGRAM_CLEARED": "Spectacle clair",
+          "FAILED_DOWNLOADING": "Échec du téléchargement du package de mise à niveau",
+          "FAILED_UPDATING": "Échec de la mise à niveau",
+          "RESET_RIL": "Réinitialisation du signal 4G",
+          "REDIAL": "Commutateur 4g",
+          "ETHERNET_CONFIGURED": "Ethernet est configuré",
+          "WIFI_CONFIGURED": "Le Wi-Fi est configuré",
+          "BAD_OPERATION": "L'écran est dormant pendant la lecture d'un spectacle",
+          "BRIGHTNESS": "La luminosité est réglée"
         },
         "MLOG": {
             "ID": "No",

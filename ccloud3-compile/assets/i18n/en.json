@@ -283,7 +283,11 @@
         "DELETE_PROGRAM": "Delete Program",
         "REBOOT": "Reboot Terminal",
         "REFRESH_NETWORK": "Refresh Network Status",
-        "UPDATE_CAMERA_SETTING": "Update Camera Setting"
+        "UPDATE_CAMERA_SETTING": "Update Camera Setting",
+      "LOCAL": "Time zone change",
+      "CAMERA_CONFIG": "Camera screenshot",
+      "AUTO_UPLOAD": "Camera auto report switch",
+      "ORIENTATION": "Set screen rotation"
     },
     "LOGIN": {
         "AUTH": {
@@ -1556,7 +1560,20 @@
             "Start_Play": "Start Play",
             "Change_account": "Change account",
             "Account_name": "Account name:",
-            "Unknown_operation": "Unknown operation"
+            "Unknown_operation": "Unknown operation",
+          "STATUS": "Switch screen status",
+          "MISSING_RESOURCE": "No resources found while playing a show",
+          "DELETE_PROGRAM": "Delete program",
+          "INVALID_PROGRAM": "Program cannot be downloaded",
+          "PROGRAM_CLEARED": "Clear program",
+          "FAILED_DOWNLOADING": "Download of upgrade package failed",
+          "FAILED_UPDATING": "Upgrade failed",
+          "RESET_RIL": "4g signal reset",
+          "REDIAL": "4g switch",
+          "ETHERNET_CONFIGURED": "Ethernet is configured",
+          "WIFI_CONFIGURED": "Wi-Fi is configured",
+          "BAD_OPERATION": "The screen is dormant while playing a show",
+          "BRIGHTNESS": "Brightness is set"
         },
         "MLOG": {
             "ID": "No",

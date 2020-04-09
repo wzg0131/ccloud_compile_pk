@@ -283,7 +283,11 @@
         "DELETE_PROGRAM": "видалити програму",
         "REBOOT": "перезавантажити термінал",
         "REFRESH_NETWORK": "Оновити стан мережі",
-        "UPDATE_CAMERA_SETTING": "Параметри оновлення для камери"
+        "UPDATE_CAMERA_SETTING": "Параметри оновлення для камери",
+      "LOCAL": "Зміна часового поясу",
+      "CAMERA_CONFIG": "Скріншот камери",
+      "AUTO_UPLOAD": "Перемикач автоматичного звіту камери",
+      "ORIENTATION": "Встановити обертання екрана"
     },
     "LOGIN": {
         "AUTH": {
@@ -1552,7 +1556,20 @@
             "Start_Play": "Почати відтрорення",
             "Change_account": "змінити акаунт",
             "Account_name": "Назва аккаунта:",
-            "Unknown_operation": "Невідома операція"
+            "Unknown_operation": "Невідома операція",
+          "STATUS": "Переключення стану екрана",
+          "MISSING_RESOURCE": "Немає ресурсів під час відтворення шоу",
+          "DELETE_PROGRAM": "Видалити шоу",
+          "INVALID_PROGRAM": "Шоу не можна завантажити",
+          "PROGRAM_CLEARED": "Чітке шоу",
+          "FAILED_DOWNLOADING": "Не вдалося завантажити пакет оновлення",
+          "FAILED_UPDATING": "Помилка оновлення",
+          "RESET_RIL": "4 г скидання сигналу",
+          "REDIAL": "4 г вимикач",
+          "ETHERNET_CONFIGURED": "Ethernet налаштований",
+          "WIFI_CONFIGURED": "Wi-Fi налаштований",
+          "BAD_OPERATION": "Екран дрімає під час відтворення шоу",
+          "BRIGHTNESS": "Яскравість встановлена"
         },
         "MLOG": {
             "ID": "немає",

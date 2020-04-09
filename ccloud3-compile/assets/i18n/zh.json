@@ -283,7 +283,11 @@
         "DELETE_PROGRAM": "删除节目",
         "REBOOT": "终端重启",
         "REFRESH_NETWORK": "刷新网络状态",
-        "UPDATE_CAMERA_SETTING": "更新摄像头监控设置"
+        "UPDATE_CAMERA_SETTING": "更新摄像头监控设置",
+      "LOCAL": "时区更改",
+      "CAMERA_CONFIG": "摄像头截图",
+      "AUTO_UPLOAD": "摄像头自动上报开关",
+      "ORIENTATION": "设置屏幕旋转"
     },
     "LOGIN": {
         "AUTH": {
@@ -1556,7 +1560,20 @@
             "Start_Play": "开始播放",
             "Change_account": "更改账户",
             "Account_name": "账户名:",
-            "Unknown_operation": "未知操作"
+            "Unknown_operation": "未知操作",
+            "STATUS": "开关屏状态",
+            "MISSING_RESOURCE": "播放节目时找不到资源",
+            "DELETE_PROGRAM": "删除节目",
+            "INVALID_PROGRAM": "节目无法下载",
+            "PROGRAM_CLEARED": "清空节目",
+            "FAILED_DOWNLOADING": "下载升级包失败",
+            "FAILED_UPDATING": "升级失败",
+            "RESET_RIL": "4g信号重置",
+            "REDIAL": "4g开关",
+            "ETHERNET_CONFIGURED": "以太网被配置",
+            "WIFI_CONFIGURED": "Wi-Fi被配置",
+            "BAD_OPERATION": "播放节目时屏幕处于休眠状态",
+            "BRIGHTNESS": "亮度被设置"
         },
         "MLOG": {
             "ID": "序号",

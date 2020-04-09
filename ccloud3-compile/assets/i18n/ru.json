@@ -284,6 +284,10 @@
         "REBOOT": "Перезагрузить терминал",
         "REFRESH_NETWORK": "Обновить состояние сети",
         "UPDATE_CAMERA_SETTING": "Обновить настройки камеры"
+      "LOCAL": "Изменение часового пояса",
+      "CAMERA_CONFIG": "Скриншот камеры",
+      "AUTO_UPLOAD": "Переключатель автоответчика камеры",
+      "ORIENTATION": "Установить поворот экрана"
     },
     "LOGIN": {
         "AUTH": {
@@ -1552,7 +1556,20 @@
             "Start_Play": "Начать воспроизведение",
             "Change_account": "Изменить аккаунт",
             "Account_name": "Название аккаунта:",
-            "Unknown_operation": "Неизвестная операция"
+            "Unknown_operation": "Неизвестная операция",
+          "STATUS": "Переключить состояние экрана",
+          "MISSING_RESOURCE": "Ресурсы не найдены во время воспроизведения шоу",
+          "DELETE_PROGRAM": "Удалить шоу",
+          "INVALID_PROGRAM": "Шоу не может быть загружено",
+          "PROGRAM_CLEARED": "Ясное шоу",
+          "FAILED_DOWNLOADING": "Не удалось загрузить пакет обновления",
+          "FAILED_UPDATING": "Обновление не удалось",
+          "RESET_RIL": "Сброс сигнала 4g",
+          "REDIAL": "4 г переключатель",
+          "ETHERNET_CONFIGURED": "Ethernet настроен",
+          "WIFI_CONFIGURED": "Wi-Fi настроен",
+          "BAD_OPERATION": "Экран бездействует во время воспроизведения шоу",
+          "BRIGHTNESS": "Яркость установлена"
         },
         "MLOG": {
             "ID": "нет",
