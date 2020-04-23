@@ -299,7 +299,7 @@
             "FAIL": "Échec de la vérification, veuillez ressaisir le code de vérification.",
             "OPEN_APP_QR": "Ouvrez Google Authenticator sur votre téléphone, scannez le code QR et entrez le code dynamique à 6 chiffres généré par Google Authenticator.",
             "OPEN_APP": "Ouvrez Google Authenticator sur votre téléphone et entrez un code dynamique à 6 chiffres.",
-            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "S'il vous plaît ne pas entrer le même nom d'utilisateur et mot de passe"
+            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "Nom d'utilisateur ou mot de passe incorrect"
         },
         "LABEL": {
             "LOGIN": "Connexion ",
@@ -681,9 +681,11 @@
         "DELETE_SUC": "Programme delete",
         "DELETE_ERROR": "Annulation de programme",
         "PRE_PUBLISH_SUCCESS": "Pré-publié avec succès",
+        "RESOLUTION_EXCEEDS": "La résolution du média du programme ### dépasse les capacités du terminal ***",
         "NO_VALID_PROGRAM": "Aucun programme valide",
         "REJECTED": "Rejeté",
         "ACCEPTED": "Vérification acceptée",
+        "PUBLISH_PLAYLIST": "Publier la playlist",
         "PUBLISH_SUCCESS": "Publié avec succès",
         "CONTENT_SEARCH": "Recherche de liste de diffusion",
         "PLAY_LIST": "Jouer la liste de diffusion",
@@ -1270,6 +1272,8 @@
         "Saturday": "Samedi ",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THE_FILE?": "Êtes-vous sûr de vouloir supprimer définitivement le fichier?",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THESE": "Êtes-vous sûr de vouloir les supprimer définitivement",
+        "DELETE_TYPE_CONTENT": "Contenu",
+        "DELETE_TYPE_FOLDER": "Dossier",
         "ITEMS?": "éléments?",
         "Delete_File": "Supprimer le fichier",
         "Delete_Multiple_Items": "Supprimer plusieurs éléments",

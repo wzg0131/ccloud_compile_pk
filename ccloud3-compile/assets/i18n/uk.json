@@ -308,7 +308,7 @@
             "FAIL": "Перевірка не вдалася, будь ласка, введіть код підтвердження ще раз",
             "OPEN_APP_QR": "Відкрийте Google Authenticator на своєму телефоні, відскануйте QR-код і введіть 6-значний динамічний код, згенерований Google Authenticator.",
             "OPEN_APP": "Будь ласка, відкрийте Google Authenticator на своєму телефоні і введіть 6-значний динамічний код",
-            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "Будь ласка, не вводьте одне і те ж ім'я користувача та пароль"
+            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "невірне ім'я користувача або пароль"
         },
         "LOGO": "під відкритим небом",
         "LABEL": {
@@ -700,9 +700,11 @@
     },
     "CONTENT": {
         "PRE_PUBLISH_SUCCESS": "Попередньо опублікувати успіх",
+        "RESOLUTION_EXCEEDS": "Медіа програми ### з роздільною здатністю обмежено можливості терміналу ***",
         "NO_VALID_PROGRAM": "Немає діючої програми",
         "REJECTED": "відхилено",
         "ACCEPTED": "аудит прийнятий",
+        "PUBLISH_PLAYLIST": "Опублікувати список відтворення",
         "PUBLISH_SUCCESS": "Опублікувати Успіх",
         "CONTENT_SEARCH": "Пошук плейлиста",
         "PLAY_LIST": "список відтворення",
@@ -1299,6 +1301,8 @@
         "Saturday": "субота",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THE_FILE?": "Ви впевнені, що хочете видалити файл назавжди?",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THESE": "Ви впевнені, що хочете назавжди видалити ці",
+        "DELETE_TYPE_CONTENT": "Зміст",
+        "DELETE_TYPE_FOLDER": "Папка",
         "ITEMS?": "Предмети?",
         "Delete_File": "видалити файл",
         "Delete_Multiple_Items": "Видалити кілька елементів",

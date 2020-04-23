@@ -308,7 +308,7 @@
             "FAIL": "Проверка не удалась, пожалуйста, введите код подтверждения еще раз",
             "OPEN_APP_QR": "Откройте Google Authenticator на своем телефоне, отсканируйте QR-код и введите 6-значный динамический код, сгенерированный Google Authenticator.",
             "OPEN_APP": "Пожалуйста, откройте Google Authenticator на своем телефоне и введите 6-значный динамический код",
-            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "Пожалуйста, не вводите одно и то же имя пользователя и пароль"
+            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "неверное имя пользователя или пароль"
         },
         "LOGO": "под открытым небом",
         "LABEL": {
@@ -700,9 +700,11 @@
     },
     "CONTENT": {
         "PRE_PUBLISH_SUCCESS": "Предварительно опубликовать успех",
+        "RESOLUTION_EXCEEDS": "Медиа ### разрешения программы исключает возможности терминала ***",
         "NO_VALID_PROGRAM": "Нет действующей программы",
         "REJECTED": "Отклонено",
         "ACCEPTED": "Аудит принят",
+        "PUBLISH_PLAYLIST": "Опубликовать плейлист",
         "PUBLISH_SUCCESS": "Опубликовать Успех",
         "CONTENT_SEARCH": "Поиск плейлиста",
         "PLAY_LIST": "Список воспроизведения",
@@ -1299,6 +1301,8 @@
         "Saturday": "субота",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THE_FILE?": "Вы уверены, что хотите удалить файл навсегда?",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THESE": "Вы уверены, что хотите навсегда удалить эти",
+        "DELETE_TYPE_CONTENT": "содержание",
+        "DELETE_TYPE_FOLDER": "скоросшиватель",
         "ITEMS?": "Предметы?",
         "Delete_File": "Удалить файл",
         "Delete_Multiple_Items": "Удалить несколько элементов",

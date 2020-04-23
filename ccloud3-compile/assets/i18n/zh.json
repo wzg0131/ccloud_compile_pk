@@ -308,7 +308,7 @@
             "FAIL": "验证失败，请重新输入验证码",
             "OPEN_APP_QR": "请在手机中打开Google Authenticator，扫描二维码，并输入Google Authenticator生成的6位动态码",
             "OPEN_APP": "请在手机中打开Google Authenticator，并输入6位动态码",
-            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "请不要输入相同的用户名和密码"
+            "PLEASE_DO_NOT_ENTER_DUPLICATE_VALUE": "用户名或密码错误"
         },
         "LOGO": "Alfresco",
         "LABEL": {
@@ -702,9 +702,11 @@
         "DELETE_SUC": "节目删除成功",
         "DELETE_ERROR": "节目删除失败",
         "PRE_PUBLISH_SUCCESS": "预发布成功",
+        "RESOLUTION_EXCEEDS": "节目中的素材 ### 的分辨率超过了终端 *** 允许的范围",
         "NO_VALID_PROGRAM": "无有效节目",
         "REJECTED": "审核拒绝",
         "ACCEPTED": "审核通过",
+        "PUBLISH_PLAYLIST": "发布节目",
         "PUBLISH_SUCCESS": "发布成功",
         "CONTENT_SEARCH": "节目搜索",
         "PLAY_LIST": "节目列表",
@@ -1303,6 +1305,8 @@
         "Saturday": "星期六",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THE_FILE?": "你确定要永久删除这个文件吗 ?",
         "ARE_YOU_SURE_YOU_WANT_TO_PERMANENTLY_DELETE_THESE": "你确定要永久删除这",
+        "DELETE_TYPE_CONTENT": "节目",
+        "DELETE_TYPE_FOLDER": "文件夹",
         "ITEMS?": "项吗 ?",
         "Delete_File": "删除文件",
         "Delete_Multiple_Items": "删除多个项目",
