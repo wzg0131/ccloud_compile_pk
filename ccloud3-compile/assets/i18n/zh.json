@@ -1,4 +1,6 @@
 {
+    "loading": "加载中",
+    "load_error": "终端轨迹数据加载失败",
     "SAME_REQUEST": "请不要重复请求",
     "WARN": "⚠️",
     "BAD_REQUEST": "请求参数错误",
@@ -6,12 +8,12 @@
     "FORBIDDEN ": "无操作权限",
     "NOTFOUND": "资源不存在",
     "METHOD_NOT_ALLOWED": "请求方法不支持",
-    "NOT_ACCEPTABLE":  "请求内容不支持",
-    "REQUEST_TIMEOUT":  "请求超时",
+    "NOT_ACCEPTABLE": "请求内容不支持",
+    "REQUEST_TIMEOUT": "请求超时",
     "INTERNAL_SERVER_ERROR": "服务器内部错误",
     "BAD_GATEWAY": "服务器网关错误",
     "GATEWAY_TIMEOUT": "服务器网关超时",
-    "HTTP_VERSION_NOT_SUPPORTED" : "服务器不支持请求的HTTP协议的版本",
+    "HTTP_VERSION_NOT_SUPPORTED": "服务器不支持请求的HTTP协议的版本",
     "SAVE": "保存",
     "SAVING": "正在保存",
     "SENDING": "发送中",
@@ -64,6 +66,12 @@
     "SELECT_PROGRAM_DRAG_TO_RIGHT": "选择节目拖拽到右侧制作节目排程",
     "NO_TERMINAL": "组下无终端",
     "No_Terminal_Selected": "未选择终端",
+    "Drag": {
+        "DROP_TO_NEW_FILE_WINDOW": "放置到该区域创建文件窗口",
+        "DROP_TO_ADD_MEDIA": "放置到该区域添加素材",
+        "DROP_TO_ADD_OR_CREATE": "放置到该区域根据落点位置向某个文件窗添加素材或者新建文件窗",
+        "DROP_TO_NEW_PAGE": "放置到该区域新建节目页并创建文件窗口"
+    },
     "COLOR_LOGIN": {
         "LOGIN_ERROR": "用户名或密码错误"
     },
@@ -270,7 +278,7 @@
         "ENABLE_GPS": "开启GPS",
         "DISABLE_GPS": "关闭GPS",
         "CLEAR_CACHE": "清除缓存",
-        "CLEAR_PROGRAMS" : "清空节目",
+        "CLEAR_PROGRAMS": "清空节目",
         "SETTING_VOLUME": "设置音量",
         "SETTING_AUTO_BRIGHTNESS": "设置自动亮度",
         "SETTING_REPORT_TIME": "设置上报时间",
@@ -284,10 +292,10 @@
         "REBOOT": "终端重启",
         "REFRESH_NETWORK": "刷新网络状态",
         "UPDATE_CAMERA_SETTING": "更新摄像头监控设置",
-      "LOCAL": "时区更改",
-      "CAMERA_CONFIG": "摄像头截图",
-      "AUTO_UPLOAD": "摄像头自动上报开关",
-      "ORIENTATION": "设置屏幕旋转"
+        "LOCAL": "时区更改",
+        "CAMERA_CONFIG": "摄像头截图",
+        "AUTO_UPLOAD": "摄像头自动上报开关",
+        "ORIENTATION": "设置屏幕旋转"
     },
     "LOGIN": {
         "AUTH": {
@@ -505,7 +513,7 @@
                 "VOLUME": "音量",
                 "SLEEP": "休眠",
                 "SCREENSHOT": "截图",
-                "WAKEUP":"唤醒",
+                "WAKEUP": "唤醒",
                 "REBOOT": "重启",
                 "UPGRADE": "升级",
                 "TIMEZONE": "时区",
@@ -571,8 +579,8 @@
         "SUB_ACCOUNT": {
             "RE_LOGIN": " 重新登陆",
             "FIRST_BOUND": "您还未绑定手机，请扫描二维码下载谷歌动态口令并重新登陆来绑定手机",
-            "NO_BIND_MOBILE" : "尚未绑定手机",
-            "UN_BIND_MOBILE" : "解绑手机",
+            "NO_BIND_MOBILE": "尚未绑定手机",
+            "UN_BIND_MOBILE": "解绑手机",
             "UN_BIND_MOBILE_SUC": "解绑手机成功",
             "UN_BIND_MOBILE_ERR": "解绑手机失败",
             "UN_BIND_MOBILE_CONFIRM": "解绑后登陆需重新扫描二维码绑定手机， 确定解绑手机吗？",
@@ -681,10 +689,12 @@
         },
         "SETTINGS": {
             "SETTINGS": "设置",
+            "FEATURE_SETTINGS": "功能设置",
             "LIGHT_STRIP_INTERFACE": "灯带界面",
             "BACKGROUND_SETTING": "背景设置",
             "LOGO_SETTINGS": "Logo设置",
             "SITE_TITLE": "站点标题",
+            "DEVICE_EXTRA_INFO": "设备额外信息",
             "Oil_Price_Window": "油价播放窗",
             "DEFAULTS": "默认",
             "FILE_WINDOW": "文件窗口",
@@ -695,7 +705,17 @@
             "DEFAULT_PICTURE_KEEP": "显示保持比例按钮",
             "OPEN": "已开启",
             "CLOSE": "已关闭",
-            "FAVICON_SETTING": "站点favicon设置"
+            "FAVICON_SETTING": "站点favicon设置",
+            "ALARM_MAILBOX_SETTINGS": "发件邮箱设置",
+            "MONITORING_ALARM_EMAIL_SENDER_SETTINGS": "警报发件邮箱设置",
+            "ALARM_EMAIL_SETTINGS": "警报邮箱设置",
+            "INVALID_EMAIL": "非法邮箱",
+            "INVALID_HOST": "非法主机",
+            "SMTP_AUTHORIZATION_CODE": "授权码",
+            "TEST_CONNECTION": "测试连接",
+            "TESTING": "进行中",
+            "SMTP_HOST": "SMTP 主机",
+            "INVALID_AUTHORIZATION_CODE_AT_LEAST_8": "至少 8 个字符"
         }
     },
     "CONTENT": {
@@ -798,6 +818,19 @@
         }
     },
     "TERMINAL": {
+        "PROVINCE": "所属省份",
+        "WIDTH": "宽",
+        "HEIGHT": "高",
+        "CODE": "店铺编码",
+        "POSITION": "店铺位置",
+        "SHOP_NAME": "店铺名称",
+        "OPTIONAL": "可选",
+        "RESOLUTION": "分辨率",
+        "INSTALL_TIME": "安装时间",
+        "LESS_THEN_MIN": "小于最小长度",
+        "INVALID": "不合法",
+        "EXTRA_SUC": "额外信息设置成功",
+        "EXTRA_FAIL": "额外信息设置失败",
         "There_are": "有",
         "command_failed": "条指令失败",
         "WILL_RESTART": "保存成功后将会重启",
@@ -857,6 +890,15 @@
         "SCREEN_SHOT": "屏幕截图",
         "NO_SCREENSHOT": "截图不存在",
         "DETAIL": {
+            "SHOW_TRACK": "显示轨迹",
+            "TRACK_DATE_RANGE": "轨迹日期范围",
+            "half_hour": "半小时",
+            "one_hour": "一小时",
+            "half_day": "半天",
+            "one_day": "一天",
+            "week": "一周",
+            "TIME": "时间",
+            "CLOSE_ALL_TACK": "关闭所有轨迹",
             "LARGE": "大",
             "MEDIUM": "中",
             "SMALL": "小",
@@ -920,6 +962,37 @@
             "NO_ONLINE_TERMINAL": "没有在线的终端",
             "CHOOSE_GROUP_FIRST": "请先切换到指定的终端组"
         },
+        "DEVICE_INFO": {
+            "DEVICE_INFO": "设备信息",
+            "SHOP_CODE": "店铺编码",
+            "PROVINCE": "省份",
+            "SHOP_NAME": "店铺名称",
+            "NETWORK_STATUS": "网络状态",
+            "ONLINE": "在线",
+            "OFFLINE": "离线",
+            "BOTH": "全部",
+            "ALL": "全部",
+            "INSTALL_DATE": "安装日期",
+            "INSTALL_DATE_START": "安装开始日期",
+            "INSTALL_DATE_END": "安装结束日期",
+            "INVALID_DATE_MESSAGE": "非法日期",
+            "INVALID_OFFLINE_DAYS_RANGE": "范围不合法",
+            "INVALID_TOTAL_OFFLINE_DAYS_RANGE": "范围不合法",
+            "START_DATE": "开始日期",
+            "END_DATE": "结束日期",
+            "OFFLINE_DAYS": "未在线天数",
+            "OFFLINE_DAYS_RANGE": "未在线天数范围",
+            "TOTAL_OFFLINE_DAYS": "累计不在线天数",
+            "TOTAL_OFFLINE_DAYS_RANGE": "累计不在线天数范围",
+            "DEVICE_LOCATION": "设备位置",
+            "RESOLUTION": "分辨率",
+            "CONTENT": "当前播放内容",
+            "SEARCHING": "正在搜索",
+            "SEARCH": "搜索",
+            "RESET": "重置",
+            "EXPORT": "全部导出",
+            "EXPORTING": "正在导出"
+        },
         "BUTTON": {
             "MASTER_BRIGHTNESS": "手动亮度",
             "AUTO": "自动",
@@ -975,7 +1048,7 @@
         "INVALID_FAILBACK": "无效默认值",
         "MID": "中间值",
         "FAILBACK": "默认值",
-        "NETWORK" :{
+        "NETWORK": {
             "NO_NETWORK": "无网络",
             "Refresh": "刷新",
             "Network_Status": "网络状态",
@@ -993,19 +1066,19 @@
         }
     },
     "CREATE": {
-        "COUNTDOWN":{
-            "DAY_COLOR" : "天颜色",
-            "HOUR_COLOR" : "小时颜色",
-            "MINUTE_COLOR" : "分钟颜色",
-            "SECOND_COLOR" : "秒颜色",
-            "PREFIX" : "前缀",
-            "END_DATE" : "截止日期",
-            "TEXT_STYLE" : "文本样式",
-            "NUMBER_STYLE" : "数字样式",
-            "BG_DURATION" : "背景颜色和播放时长",
+        "COUNTDOWN": {
+            "DAY_COLOR": "天颜色",
+            "HOUR_COLOR": "小时颜色",
+            "MINUTE_COLOR": "分钟颜色",
+            "SECOND_COLOR": "秒颜色",
+            "PREFIX": "前缀",
+            "END_DATE": "截止日期",
+            "TEXT_STYLE": "文本样式",
+            "NUMBER_STYLE": "数字样式",
+            "BG_DURATION": "背景颜色和播放时长",
             "DATE_CHOOSE": "选择日期",
             "MIN_DURATION": "最短时间",
-            "IF_DAY" : "是否显示天",
+            "IF_DAY": "是否显示天",
             "IF_HOUR": "是否显示小时",
             "IF_MINUTE": "是否显示分钟",
             "IF_SECOND": "是否显示秒",
@@ -1031,7 +1104,7 @@
         "VERSION": "版本",
         "TEXT_LAYOUT": "文本布局和网页编辑一致",
         "SINGLE_PAGE": "单页",
-        "Full_Screen" : "全屏显示",
+        "Full_Screen": "全屏显示",
         "Exit_Full_Screen": "退出全屏",
         "Preview": "预览",
         "Only_support_video(mp4)_and_image_in_File_Window": "文件窗口只支持mp4的视频和图片",
@@ -1292,6 +1365,17 @@
         }
     },
     "MEDIA": {
+        "SAVE": "保存",
+        "ADD_TAG": "添加标签",
+        "MEDIA": "个素材",
+        "TAGS": "素材标签",
+        "ADD_TAG_SUC": "添加标签成功",
+        "ADD_TAG_ERROR": "添加标签失败",
+        "NO_SEARCH_RESULT": "无搜索结果",
+        "TAG_INVALID": "无效的标签名字",
+        "UNBIND_TAG": "解除该标签与素材的绑定",
+        "DESELECT": "取消该搜索条件",
+        "SEARCH_BY_TAG": "搜索所有包含「***」标签的素材",
         "uploadFileTip": "你可以上传图片的大小的限制是0到20M，图片的格式限制（jpeg, bmp, png, gif），视频的大小限制是0到2G,视频格式限制（mp4, avi,mpeg, mov, wmv）",
         "uploadDictionaryTip": "上传文件夹内的所有符合条件的文件，上传规则和上传文件一样，若有不符合条件的文件，请将文件移除文件夹并重试",
         "IMAGE_TYPE_NOT_ALLOWED": "图片类型不支持",
@@ -1341,7 +1425,7 @@
         "MY_SPACE": "我的空间",
         "MOVING_MEDIA_T0_FOLDER...": "正在移动......",
         "MOVE_SUCCESS": "移动成功 !",
-        "DETAIL":"细节",
+        "DETAIL": "细节",
         "CREATE_CONTENT": "制作节目",
         "MEDIA_CAN_NOT_BE_DELETE": "该素材不能被删除",
         "Select_A_MEDIA_TO_VIEW_ITS_DITAILS": "请选择一个素材查看详情",
@@ -1389,7 +1473,7 @@
         "APPLICATION_TYPE_MUST_BE_ZIP !": "必须是zip的压缩包 !",
         "IMAGE_SIZE_OUT_LIMIT !": "图片大小超过限制 !",
         "VIDEO_SIZE_OUT_LIMIT !": "视频大小超过限制 !",
-        "MANAGER_NEED":"只有站点管理员才能上传升级包！",
+        "MANAGER_NEED": "只有站点管理员才能上传升级包！",
         "FILE_TYPE_NOT_ALLOWED !": "文件类型不支持 !",
         "HAVE_NO_MEDIAS": "没有素材",
         "USE_BUTTON": "点击“上传”按钮",
@@ -1633,6 +1717,9 @@
         "TEMPERATURE": "温度",
         "SMOKE": "烟雾",
         "BRIGHTNESS": "亮度",
+        "SCREEN_BRIGHTNESS": "屏幕亮度",
+        "SENSOR_BRIGHTNESS": "传感器亮度",
+        "MASTER_BRIGHTNESS": "主亮度",
         "HUMIDITY": "湿度",
         "UNIT": "单位",
         "NO_DATA": "暂无数据",
@@ -1752,7 +1839,6 @@
             "ROOT_GROUP_CAN_NOT_BE_DELETED": "根组不能删除"
         }
     },
-
     "MAP": {
         "SEARCH": "搜索",
         "LATEST_REPORT": "最新上报",
@@ -1778,5 +1864,46 @@
     },
     "GROUP_PICKER": {
         "ENTER_GROUP_NAME": "输入组名"
+    },
+    "ADF_FILE_UPLOAD": {
+        "BUTTON": {
+            "MINIMIZE": "最小化(&M)",
+            "MAXIMIZE": "最大化",
+            "CLOSE": "关闭",
+            "CANCEL_ALL": "取消上传",
+            "CANCEL_FILE": "取消上传",
+            "REMOVE_FILE": "移除已上传文件"
+        },
+        "STATUS": {
+            "FILE_CANCELED_STATUS": "已取消"
+        },
+        "CONFIRMATION": {
+            "BUTTON": {
+                "CANCEL": "是",
+                "CONTINUE": "否"
+            },
+            "MESSAGE": {
+                "TITLE": "取消上传",
+                "TEXT": "停止上传并移除已上传文件。"
+            }
+        }
+    },
+    "FILE_UPLOAD": {
+        "MESSAGES": {
+            "UPLOAD_CANCELED": "取消上传",
+            "UPLOAD_COMPLETED": "已上传 {{completed}} 个/共 {{total}} 个",
+            "UPLOAD_PROGRESS": "正在上传 {{completed}} 个/共 {{total}} 个",
+            "UPLOAD_ERROR": "{{total}} 个未成功上传",
+            "UPLOAD_ERRORS": "{{total}} 个未成功上传",
+            "PROGRESS": "正在上传...",
+            "FOLDER_ALREADY_EXIST": "文件夹 {0} 已存在",
+            "FOLDER_NOT_SUPPORTED": "您的浏览器不支持文件夹上传，请使用其他浏览器",
+            "REMOVE_FILE_ERROR": "{{fileName}} 无法移除，请重试或联系您的 IT 团队。",
+            "REMOVE_FILES_ERROR": "{{total}} 个文件无法移除，请重试或联系您的 IT 团队。",
+            "EXCEED_MAX_FILE_SIZE": "文件 {{ fileName }} 超出允许的文件大小"
+        },
+        "ACTION": {
+            "UNDO": "撤消"
+        }
     }
 }

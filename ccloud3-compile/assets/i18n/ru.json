@@ -1,4 +1,6 @@
 {
+    "loading": "Загрузка данных",
+    "load_error": "Загрузка данных не удалась",
     "SAME_REQUEST": "Пожалуйста, не повторяйте запрос",
     "WARN": "⚠️",
     "BAD_REQUEST": "Ошибка параметра запроса",
@@ -59,11 +61,17 @@
     "You_can_navigate_to_playList_to_permanent_delete_these_programs": "Вы можете перейти к списку воспроизведения, чтобы навсегда удалить эти программы.",
     "THE_CONTENT_IS_NOT_CREATED_ON_THE_WEB_FOR_WHICH_CAN_NOT_BE_EDITED!": "Плейлист не создан в сети, для которого нельзя редактировать!",
     "THE_CONTENT_VERSION_IS_OLD,_RECREATE!": "Версия плейлиста старая, пожалуйста, создайте заново",
-  "DROP_HERE_MAKE_SCHEDULE": "Размещены в этой области, чтобы составить расписание программы",
-  "SELECT_PROGRAM_DRAG_TO_RIGHT": "Выберите программу и перетащите ее вправо, чтобы составить расписание программы.",
+    "DROP_HERE_MAKE_SCHEDULE": "Размещены в этой области, чтобы составить расписание программы",
+    "SELECT_PROGRAM_DRAG_TO_RIGHT": "Выберите программу и перетащите ее вправо, чтобы составить расписание программы.",
     "PLEASE_CHOOSE_GROUP": "Пожалуйста, выберите группу",
     "NO_TERMINAL": "Нет терминала",
     "No_Terminal_Selected": "No Terminal Selected",
+    "Drag": {
+        "DROP_TO_NEW_FILE_WINDOW": "Зайдите в эту область, чтобы создать окно файла",
+        "DROP_TO_ADD_MEDIA": "Поместите в эту область, чтобы добавить материал",
+        "DROP_TO_ADD_OR_CREATE": "Поместите в эту область, чтобы добавить материал в окно файла или создать новое окно файла в соответствии с расположением точки отбрасывания.",
+        "DROP_TO_NEW_PAGE": "Поместите в эту область, чтобы создать новую страницу показа и создать окно файла"
+    },
     "COLOR_LOGIN": {
         "LOGIN_ERROR": "Ошибка имени пользователя или пароля"
     },
@@ -283,11 +291,11 @@
         "DELETE_PROGRAM": "Удалить программу",
         "REBOOT": "Перезагрузить терминал",
         "REFRESH_NETWORK": "Обновить состояние сети",
-        "UPDATE_CAMERA_SETTING": "Обновить настройки камеры"
-      "LOCAL": "Изменение часового пояса",
-      "CAMERA_CONFIG": "Скриншот камеры",
-      "AUTO_UPLOAD": "Переключатель автоответчика камеры",
-      "ORIENTATION": "Установить поворот экрана"
+        "UPDATE_CAMERA_SETTING": "Обновить настройки камеры",
+        "LOCAL": "Изменение часового пояса",
+        "CAMERA_CONFIG": "Скриншот камеры",
+        "AUTO_UPLOAD": "Переключатель автоответчика камеры",
+        "ORIENTATION": "Установить поворот экрана"
     },
     "LOGIN": {
         "AUTH": {
@@ -681,10 +689,12 @@
         },
         "SETTINGS": {
             "SETTINGS": "настройки",
+            "FEATURE_SETTINGS": "Настройки функций",
             "LIGHT_STRIP_INTERFACE": "Интерфейс световой полосы",
             "BACKGROUND_SETTING": "Настройка фона",
             "LOGO_SETTINGS": "Настройки логотипа",
             "SITE_TITLE": "Заголовок сайта",
+            "DEVICE_EXTRA_INFO": "Дополнительная информация об устройстве",
             "Oil_Price_Window": "Окно цен на топливо",
             "DEFAULTS": "Значения по умолчанию",
             "FILE_WINDOW": "Файловое окно",
@@ -695,7 +705,17 @@
             "DEFAULT_PICTURE_KEEP": "Показать параметр Сохранить соотношение сторон",
             "OPEN": "открыто",
             "CLOSE": "от",
-            "FAVICON_SETTING": "Favicon Setting"
+            "FAVICON_SETTING": "Favicon Setting",
+            "ALARM_MAILBOX_SETTINGS": "Настройки почтового ящика будильника",
+            "MONITORING_ALARM_EMAIL_SENDER_SETTINGS": "Мониторинг настроек отправителя по электронной почте",
+            "ALARM_EMAIL_SETTINGS": "Настройки электронной почты для будильника",
+            "INVALID_EMAIL": "Неверный адрес электронной почты",
+            "INVALID_HOST": "Неверный хост",
+            "SMTP_AUTHORIZATION_CODE": "Код авторизации SMTP",
+            "TEST_CONNECTION": "Тестовое соединение",
+            "TESTING": "тестирование",
+            "SMTP_HOST": "SMTP Host",
+            "INVALID_AUTHORIZATION_CODE_AT_LEAST_8": "Не менее 8 символов"
         }
     },
     "CONTENT": {
@@ -796,15 +816,28 @@
         }
     },
     "TERMINAL": {
-      "There_are": "Есть",
-      "command_failed": "команда не выполнена",
-      "WILL_RESTART": "Перезапустите после успешного сохранения",
-      "Normal": "нормаль",
-      "CW90": "90°по часовой стрелке",
-      "180": "180°",
-      "CCW90": "90°против часовой стрелки",
-      "ADVANCED": "продвинутый",
-      "ROTATE": "вращение",
+        "PROVINCE": "провинция",
+        "WIDTH": "ширина",
+        "HEIGHT": "высокая",
+        "CODE": "Код магазина",
+        "POSITION": "Расположение магазина",
+        "SHOP_NAME": "Название магазина",
+        "OPTIONAL": "опциональный",
+        "RESOLUTION": "разрешение",
+        "INSTALL_TIME": "Время установки",
+        "LESS_THEN_MIN": "меньше минимальной длины",
+        "INVALID": "незаконный",
+        "EXTRA_SUC": "Дополнительная информация успешно установлена",
+        "EXTRA_FAIL": "Не удалось настроить дополнительную информацию",
+        "There_are": "Есть",
+        "command_failed": "команда не выполнена",
+        "WILL_RESTART": "Перезапустите после успешного сохранения",
+        "Normal": "нормаль",
+        "CW90": "90°по часовой стрелке",
+        "180": "180°",
+        "CCW90": "90°против часовой стрелки",
+        "ADVANCED": "продвинутый",
+        "ROTATE": "вращение",
         "MOVE": "Переехать",
         "TO_NEW_POSITION": "на новую должность",
         "CHOOSE_GROUP": "Изменить группу",
@@ -853,6 +886,15 @@
         "SCREEN_SHOT": "Снимок экрана",
         "NO_SCREENSHOT": "Нет скриншота",
         "DETAIL": {
+            "SHOW_TRACK": "Показать трек",
+            "TRACK_DATE_RANGE": "Диапазон дат отслеживания",
+            "half_hour": "Полчаса",
+            "one_hour": "Один час",
+            "half_day": "Полдня",
+            "one_day": "Однажды",
+            "week": "Одна неделя",
+            "TIME": "Время",
+            "CLOSE_ALL_TACK": "Закрыть всю дорожку",
             "LARGE": "большой",
             "MEDIUM": "средний",
             "SMALL": "Небольшой",
@@ -915,6 +957,37 @@
             "TOTAL": "Общее количество",
             "NO_ONLINE_TERMINAL": "Нет терминала онлайн",
             "CHOOSE_GROUP_FIRST": "Пожалуйста, сначала перейдите в группу"
+        },
+        "DEVICE_INFO": {
+            "DEVICE_INFO": "Информация об устройстве",
+            "SHOP_CODE": "Код магазина",
+            "PROVINCE": "Провинция",
+            "SHOP_NAME": "Название магазина",
+            "NETWORK_STATUS": "Состояние сети",
+            "ONLINE": "В сети",
+            "OFFLINE": "Не в сети",
+            "BOTH": "И то и другое",
+            "ALL": "Все",
+            "INSTALL_DATE": "Дата установки Начало",
+            "INSTALL_DATE_START": "Install Date Start",
+            "INSTALL_DATE_END": "Дата окончания установки",
+            "INVALID_DATE_MESSAGE": "Недействительная дата",
+            "INVALID_OFFLINE_DAYS_RANGE": "Неверный диапазон",
+            "INVALID_TOTAL_OFFLINE_DAYS_RANGE": "Неверный диапазон",
+            "START_DATE": "Дата начала",
+            "END_DATE": "Дата окончания",
+            "OFFLINE_DAYS": "Оффлайн Дни",
+            "OFFLINE_DAYS_RANGE": "Диапазон дней оффлайн",
+            "TOTAL_OFFLINE_DAYS": "Всего оффлайн дней",
+            "TOTAL_OFFLINE_DAYS_RANGE": "Всего дней в оффлайне",
+            "DEVICE_LOCATION": "Расположение устройства",
+            "RESOLUTION": "разрешение",
+            "CONTENT": "содержание",
+            "SEARCHING": "Поиск",
+            "SEARCH": "Поиск",
+            "RESET": "Сброс настроек",
+            "EXPORT": "Экспортировать все",
+            "EXPORTING": "Экспортировать все"
         },
         "BUTTON": {
             "MASTER_BRIGHTNESS": "Мастер Яркости",
@@ -1288,6 +1361,17 @@
         }
     },
     "MEDIA": {
+        "SAVE": "Сохранить",
+        "ADD_TAG": "Добавить метку",
+        "MEDIA": "СМИ",
+        "TAGS": "Media Tag",
+        "ADD_TAG_SUC": "Добавить тег успешно",
+        "ADD_TAG_ERROR": "Добавить тег не удалось",
+        "NO_SEARCH_RESULT": "Нет результатов поиска",
+        "TAG_INVALID": "Неверное имя тега",
+        "UNBIND_TAG": "Отменить привязку",
+        "DESELECT": "Отменить выбор",
+        "SEARCH_BY_TAG": "Поиск по всем носителям, содержащим тег [***]",
         "uploadFileTip": "Вы можете загрузить изображение в пределах 20 МБ, а видео в пределах 2 ГБ. Формат изображения ограничен jpeg, bmp, png, gif, а формат видео - mp4, avi, mpeg, mov, wmv.",
         "uploadDictionaryTip": "Вы можете загрузить все файлы в папку, правила загрузки такие же, как указано выше. Если есть файлы, которые не соответствуют правилам, пожалуйста, отойдите от этой папки и попробуйте снова",
         "IMAGE_TYPE_NOT_ALLOWED": "Тип изображения не допускается",
@@ -1561,19 +1645,19 @@
             "Change_account": "Изменить аккаунт",
             "Account_name": "Название аккаунта:",
             "Unknown_operation": "Неизвестная операция",
-          "STATUS": "Переключить состояние экрана",
-          "MISSING_RESOURCE": "Ресурсы не найдены во время воспроизведения шоу",
-          "DELETE_PROGRAM": "Удалить шоу",
-          "INVALID_PROGRAM": "Шоу не может быть загружено",
-          "PROGRAM_CLEARED": "Ясное шоу",
-          "FAILED_DOWNLOADING": "Не удалось загрузить пакет обновления",
-          "FAILED_UPDATING": "Обновление не удалось",
-          "RESET_RIL": "Сброс сигнала 4g",
-          "REDIAL": "4 г переключатель",
-          "ETHERNET_CONFIGURED": "Ethernet настроен",
-          "WIFI_CONFIGURED": "Wi-Fi настроен",
-          "BAD_OPERATION": "Экран бездействует во время воспроизведения шоу",
-          "BRIGHTNESS": "Яркость установлена"
+            "STATUS": "Переключить состояние экрана",
+            "MISSING_RESOURCE": "Ресурсы не найдены во время воспроизведения шоу",
+            "DELETE_PROGRAM": "Удалить шоу",
+            "INVALID_PROGRAM": "Шоу не может быть загружено",
+            "PROGRAM_CLEARED": "Ясное шоу",
+            "FAILED_DOWNLOADING": "Не удалось загрузить пакет обновления",
+            "FAILED_UPDATING": "Обновление не удалось",
+            "RESET_RIL": "Сброс сигнала 4g",
+            "REDIAL": "4 г переключатель",
+            "ETHERNET_CONFIGURED": "Ethernet настроен",
+            "WIFI_CONFIGURED": "Wi-Fi настроен",
+            "BAD_OPERATION": "Экран бездействует во время воспроизведения шоу",
+            "BRIGHTNESS": "Яркость установлена"
         },
         "MLOG": {
             "ID": "нет",
@@ -1629,6 +1713,9 @@
         "TEMPERATURE": "температура",
         "SMOKE": "дым",
         "BRIGHTNESS": "яркость",
+        "SCREEN_BRIGHTNESS": "Яркость экрана",
+        "SENSOR_BRIGHTNESS": "Датчик яркости",
+        "MASTER_BRIGHTNESS": "Мастер Яркость",
         "HUMIDITY": "влажность",
         "UNIT": "Единица измерения",
         "NO_DATA": "Нет данных",
@@ -1774,5 +1861,46 @@
     },
     "GROUP_PICKER": {
         "ENTER_GROUP_NAME": "Введите название группы"
+    },
+    "ADF_FILE_UPLOAD": {
+        "BUTTON": {
+            "MINIMIZE": "Минимизировать",
+            "MAXIMIZE": "Максимизировать",
+            "CLOSE": "Закрыть",
+            "CANCEL_ALL": "Отменить загрузку",
+            "CANCEL_FILE": "Отменить загрузку",
+            "REMOVE_FILE": "Удалить загруженный файл"
+        },
+        "STATUS": {
+            "FILE_CANCELED_STATUS": "Отменено"
+        },
+        "CONFIRMATION": {
+            "BUTTON": {
+                "CANCEL": "Да",
+                "CONTINUE": "Нет"
+            },
+            "MESSAGE": {
+                "TITLE": "Отменить загрузку",
+                "TEXT": "Прекратить загрузку и удалить уже загруженные файлы."
+            }
+        }
+    },
+    "FILE_UPLOAD": {
+        "MESSAGES": {
+            "UPLOAD_CANCELED": "Загрузка отменена",
+            "UPLOAD_COMPLETED": "Загружено {{ completed }} / {{ total }}",
+            "UPLOAD_PROGRESS": "Загрузка {{ completed }} / {{ total }}",
+            "UPLOAD_ERROR": "{{ total }} загрузка не удалась",
+            "UPLOAD_ERRORS": "{{ total }} загрузка не удалась",
+            "PROGRESS": "Идет загрузка ...",
+            "FOLDER_ALREADY_EXIST": "Папка {0} уже существует",
+            "FOLDER_NOT_SUPPORTED": "Загрузка папки не поддерживается вашим браузером, попробуйте другой браузер",
+            "REMOVE_FILE_ERROR": "{{ fileName }} не может быть удалено, попробуйте еще раз или свяжитесь с ИТ-командой.",
+            "REMOVE_FILES_ERROR": "{{ total }} файлы не могут быть удалены, попробуйте еще раз или свяжитесь с ИТ-командой.",
+            "EXCEED_MAX_FILE_SIZE": "Файл {{ fileName }} больше разрешенного размера файла"
+        },
+        "ACTION": {
+            "UNDO": "Undo"
+        }
     }
 }

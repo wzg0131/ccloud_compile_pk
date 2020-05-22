@@ -1,4 +1,6 @@
 {
+    "loading": "Завантаження даних...",
+    "load_error": "Помилка завантаження даних",
     "SAME_REQUEST": "Будь ласка, не повторюйте запит",
     "WARN": "⚠️",
     "BAD_REQUEST": "Помилка параметра запиту",
@@ -60,10 +62,16 @@
     "THE_CONTENT_IS_NOT_CREATED_ON_THE_WEB_FOR_WHICH_CAN_NOT_BE_EDITED!": "Плейлист не створений в мережі, для якого не можна редагувати!",
     "THE_CONTENT_VERSION_IS_OLD,_RECREATE!": "Версія плейлиста стара, будь ласка, створіть заново",
     "PLEASE_CHOOSE_GROUP": "Будь ласка, виберіть групу",
-  "DROP_HERE_MAKE_SCHEDULE": "Розміщується в цій області для складання графіку програми",
-  "SELECT_PROGRAM_DRAG_TO_RIGHT": "Виберіть програму та перетягніть її праворуч, щоб скласти графік програми",
+    "DROP_HERE_MAKE_SCHEDULE": "Розміщується в цій області для складання графіку програми",
+    "SELECT_PROGRAM_DRAG_TO_RIGHT": "Виберіть програму та перетягніть її праворуч, щоб скласти графік програми",
     "NO_TERMINAL": "Термінал відсутній",
     "No_Terminal_Selected": "No Terminal Selected",
+    "Drag": {
+        "DROP_TO_NEW_FILE_WINDOW": "Зайдіть у цю область, щоб створити вікно файлу",
+        "DROP_TO_ADD_MEDIA": "Розмістіть у цій зоні, щоб додати матеріал",
+        "DROP_TO_ADD_OR_CREATE": "Розмістіть у цій області, щоб додати матеріал у вікно файлу або створити нове вікно файлу відповідно до місця розташування точки падіння",
+        "DROP_TO_NEW_PAGE": "Розташуйте в цій області, щоб створити нову сторінку програми та створити вікно файлу"
+    },
     "COLOR_LOGIN": {
         "LOGIN_ERROR": "Помилка імені користувача або пароля"
     },
@@ -284,10 +292,10 @@
         "REBOOT": "перезавантажити термінал",
         "REFRESH_NETWORK": "Оновити стан мережі",
         "UPDATE_CAMERA_SETTING": "Параметри оновлення для камери",
-      "LOCAL": "Зміна часового поясу",
-      "CAMERA_CONFIG": "Скріншот камери",
-      "AUTO_UPLOAD": "Перемикач автоматичного звіту камери",
-      "ORIENTATION": "Встановити обертання екрана"
+        "LOCAL": "Зміна часового поясу",
+        "CAMERA_CONFIG": "Скріншот камери",
+        "AUTO_UPLOAD": "Перемикач автоматичного звіту камери",
+        "ORIENTATION": "Встановити обертання екрана"
     },
     "LOGIN": {
         "AUTH": {
@@ -681,10 +689,12 @@
         },
         "SETTINGS": {
             "SETTINGS": "настройки",
+            "FEATURE_SETTINGS": "Параметри функції",
             "LIGHT_STRIP_INTERFACE": "Інтерфейс світловий смуги",
             "BACKGROUND_SETTING": "Налаштування фону",
             "LOGO_SETTINGS": "налаштування логотипу",
             "SITE_TITLE": "Тема сайту",
+            "DEVICE_EXTRA_INFO": "Додаткова інформація про пристрій",
             "Oil_Price_Window": "Вікно цін на паливо",
             "DEFAULTS": "Значення за замовчуванням",
             "FILE_WINDOW": "файлове вікно",
@@ -695,7 +705,17 @@
             "DEFAULT_PICTURE_KEEP": "Показати параметр Зберегти співвідношення сторін",
             "OPEN": "відкрито",
             "CLOSE": "від",
-            "FAVICON_SETTING": "Favicon Setting"
+            "FAVICON_SETTING": "Favicon Setting",
+            "ALARM_MAILBOX_SETTINGS": "Налаштування поштової скриньки тривоги",
+            "MONITORING_ALARM_EMAIL_SENDER_SETTINGS": "Моніторинг налаштувань відправника сигналу тривоги",
+            "ALARM_EMAIL_SETTINGS": "Параметри електронної пошти",
+            "INVALID_EMAIL": "Недійсна електронна пошта",
+            "INVALID_HOST": "Недійсний хост",
+            "SMTP_AUTHORIZATION_CODE": "Код авторизації SMTP",
+            "TEST_CONNECTION": "Підключення до тесту",
+            "TESTING": "Тестування",
+            "SMTP_HOST": "SMTP хост",
+            "INVALID_AUTHORIZATION_CODE_AT_LEAST_8": "Як мінімум 8 символів"
         }
     },
     "CONTENT": {
@@ -796,15 +816,28 @@
         }
     },
     "TERMINAL": {
-      "There_are": "Існує",
-      "command_failed": "команда не вдалася",
-      "WILL_RESTART": "Перезапустіть після успішного збереження",
-      "Normal": "Нормальний",
-      "CW90": "90°за годинниковою стрілкою",
-      "180": "180°",
-      "CCW90": "90°проти годинникової стрілки",
-      "ADVANCED": "Старший",
-      "ROTATE": "Спіна",
+        "PROVINCE": "Провінція",
+        "WIDTH": "Широкий",
+        "HEIGHT": "Високий",
+        "CODE": "Код магазину",
+        "POSITION": "Місце зберігання",
+        "SHOP_NAME": "Назва магазину",
+        "OPTIONAL": "За бажанням",
+        "RESOLUTION": "Дозвіл",
+        "INSTALL_TIME": "Час установки",
+        "LESS_THEN_MIN": "Менша мінімальна довжина",
+        "INVALID": "Незаконне",
+        "EXTRA_SUC": "Додаткову інформацію встановлено успішно",
+        "EXTRA_FAIL": "Не вдалося встановити додаткову інформацію",
+        "There_are": "Існує",
+        "command_failed": "команда не вдалася",
+        "WILL_RESTART": "Перезапустіть після успішного збереження",
+        "Normal": "Нормальний",
+        "CW90": "90°за годинниковою стрілкою",
+        "180": "180°",
+        "CCW90": "90°проти годинникової стрілки",
+        "ADVANCED": "Старший",
+        "ROTATE": "Спіна",
         "MOVE": "переїхати",
         "TO_NEW_POSITION": "на нову посаду",
         "CHOOSE_GROUP": "змінити групу",
@@ -853,6 +886,15 @@
         "SCREEN_SHOT": "Знімок екрану",
         "NO_SCREENSHOT": "немає скриншота",
         "DETAIL": {
+            "SHOW_TRACK": "Показати трек",
+            "TRACK_DATE_RANGE": "Діапазон дат відстеження",
+            "half_hour": "Півгодини",
+            "one_hour": "Одна година",
+            "half_day": "Півдня",
+            "one_day": "Одного дня",
+            "week": "Один тиждень",
+            "TIME": "Час",
+            "CLOSE_ALL_TACK": "Закрити всю доріжку",
             "LARGE": "великий",
             "MEDIUM": "середній",
             "SMALL": "невеликий",
@@ -915,6 +957,37 @@
             "TOTAL": "Загальна кількість",
             "NO_ONLINE_TERMINAL": "Ні терміналу онлайн",
             "CHOOSE_GROUP_FIRST": "Будь ласка, спочатку перейдіть в групу"
+        },
+        "DEVICE_INFO": {
+            "DEVICE_INFO": "Інформація про пристрій",
+            "SHOP_CODE": "Код магазину",
+            "PROVINCE": "Провінція",
+            "SHOP_NAME": "Назва магазину",
+            "NETWORK_STATUS": "Стан мережі",
+            "ONLINE": "Інтернет",
+            "OFFLINE": "Офлайн",
+            "BOTH": "І те й інше",
+            "ALL": "Усі",
+            "INSTALL_DATE": "Дата встановлення",
+            "INSTALL_DATE_START": "Встановити дату початку",
+            "INSTALL_DATE_END": "Встановити кінець дати",
+            "INVALID_DATE_MESSAGE": "Недійсна дата",
+            "INVALID_OFFLINE_DAYS_RANGE": "Недійсний діапазон",
+            "INVALID_TOTAL_OFFLINE_DAYS_RANGE": "Недійсний діапазон",
+            "START_DATE": "Дата початку",
+            "END_DATE": "Дата закінчення",
+            "OFFLINE_DAYS": "Дні офлайн",
+            "OFFLINE_DAYS_RANGE": "Діапазон днів офлайн",
+            "TOTAL_OFFLINE_DAYS": "Загальна кількість офлайн днів",
+            "TOTAL_OFFLINE_DAYS_RANGE": "Загальний діапазон днів офлайн",
+            "DEVICE_LOCATION": "Розташування пристрою",
+            "RESOLUTION": "Дозвіл",
+            "CONTENT": "Зміст",
+            "SEARCHING": "Пошук",
+            "SEARCH": "Пошук",
+            "RESET": "Скидання",
+            "EXPORT": "Експортувати все",
+            "EXPORTING": "Експорт усіх"
         },
         "BUTTON": {
             "MASTER_BRIGHTNESS": "Майстер Яскравісті",
@@ -1288,6 +1361,17 @@
         }
     },
     "MEDIA": {
+        "SAVE": "Зберегти",
+        "ADD_TAG": "Додати тег",
+        "MEDIA": "ЗМІ",
+        "TAGS": "Тег медіа",
+        "ADD_TAG_SUC": "Додати успіх тегів",
+        "ADD_TAG_ERROR": "Не вдалося додати тег",
+        "NO_SEARCH_RESULT": "Немає результатів пошуку",
+        "TAG_INVALID": "Недійсне ім’я тегу",
+        "UNBIND_TAG": "Від’єднати тег",
+        "DESELECT": "Скасувати вибір",
+        "SEARCH_BY_TAG": "Пошук у всіх носіях, що містять тег [***]",
         "uploadFileTip": "Ви можете завантажити зображення в межах 20 МБ, а відео в межах 2 ГБ. Формат зображення обмежений jpeg, bmp, png, gif, а формат відео - mp4, avi, mpeg, mov, wmv.",
         "uploadDictionaryTip": "Ви можете завантажити всі файли в папку, правила завантаження такі ж, як зазначено вище. Якщо є файли, які не відповідають правилам, будь ласка, відійдіть від цієї папки і спробуйте знову",
         "IMAGE_TYPE_NOT_ALLOWED": "Тип зображення не допускається",
@@ -1561,19 +1645,19 @@
             "Change_account": "змінити акаунт",
             "Account_name": "Назва аккаунта:",
             "Unknown_operation": "Невідома операція",
-          "STATUS": "Переключення стану екрана",
-          "MISSING_RESOURCE": "Немає ресурсів під час відтворення шоу",
-          "DELETE_PROGRAM": "Видалити шоу",
-          "INVALID_PROGRAM": "Шоу не можна завантажити",
-          "PROGRAM_CLEARED": "Чітке шоу",
-          "FAILED_DOWNLOADING": "Не вдалося завантажити пакет оновлення",
-          "FAILED_UPDATING": "Помилка оновлення",
-          "RESET_RIL": "4 г скидання сигналу",
-          "REDIAL": "4 г вимикач",
-          "ETHERNET_CONFIGURED": "Ethernet налаштований",
-          "WIFI_CONFIGURED": "Wi-Fi налаштований",
-          "BAD_OPERATION": "Екран дрімає під час відтворення шоу",
-          "BRIGHTNESS": "Яскравість встановлена"
+            "STATUS": "Переключення стану екрана",
+            "MISSING_RESOURCE": "Немає ресурсів під час відтворення шоу",
+            "DELETE_PROGRAM": "Видалити шоу",
+            "INVALID_PROGRAM": "Шоу не можна завантажити",
+            "PROGRAM_CLEARED": "Чітке шоу",
+            "FAILED_DOWNLOADING": "Не вдалося завантажити пакет оновлення",
+            "FAILED_UPDATING": "Помилка оновлення",
+            "RESET_RIL": "4 г скидання сигналу",
+            "REDIAL": "4 г вимикач",
+            "ETHERNET_CONFIGURED": "Ethernet налаштований",
+            "WIFI_CONFIGURED": "Wi-Fi налаштований",
+            "BAD_OPERATION": "Екран дрімає під час відтворення шоу",
+            "BRIGHTNESS": "Яскравість встановлена"
         },
         "MLOG": {
             "ID": "немає",
@@ -1629,6 +1713,9 @@
         "TEMPERATURE": "температура",
         "SMOKE": "дим",
         "BRIGHTNESS": "яскравість",
+        "SCREEN_BRIGHTNESS": "Яскравість екрана",
+        "SENSOR_BRIGHTNESS": "Яскравість датчика",
+        "MASTER_BRIGHTNESS": "Майстер Яскравість",
         "HUMIDITY": "вологість",
         "UNIT": "Одиниця виміру",
         "NO_DATA": "Немає даних",
@@ -1774,5 +1861,46 @@
     },
     "GROUP_PICKER": {
         "ENTER_GROUP_NAME": "Введіть назву групи"
+    },
+    "ADF_FILE_UPLOAD": {
+        "BUTTON": {
+            "MINIMIZE": "Звести до мінімуму",
+            "MAXIMIZE": "Максимізувати",
+            "CLOSE": "Закрити",
+            "CANCEL_ALL": "Скасувати завантаження",
+            "CANCEL_FILE": "Скасувати завантаження",
+            "REMOVE_FILE": "Видалити завантажений файл"
+        },
+        "STATUS": {
+            "FILE_CANCELED_STATUS": "Скасовано"
+        },
+        "CONFIRMATION": {
+            "BUTTON": {
+                "CANCEL": "Так",
+                "CONTINUE": "Ні"
+            },
+            "MESSAGE": {
+                "TITLE": "Скасувати завантаження",
+                "TEXT": "Зупинити завантаження та видалити вже завантажені файли."
+            }
+        }
+    },
+    "FILE_UPLOAD": {
+        "MESSAGES": {
+            "UPLOAD_CANCELED": "Завантаження скасовано",
+            "UPLOAD_COMPLETED": "Завантажено {{ completed }} / {{ total }}",
+            "UPLOAD_PROGRESS": "Завантаження {{ completed }} / {{ total }}",
+            "UPLOAD_ERROR": "{{ total }} завантаження не вдалося",
+            "UPLOAD_ERRORS": "{{ total }} завантаження не вдалося",
+            "PROGRESS": "Виконується завантаження ...",
+            "FOLDER_ALREADY_EXIST": "Папка  {0} вже існує",
+            "FOLDER_NOT_SUPPORTED": "Завантаження папок браузер не підтримується. Спробуйте інший браузер",
+            "REMOVE_FILE_ERROR": "{{ fileName }} не вдалося видалити, спробуйте ще раз або зверніться до своєї ІТ-команди.",
+            "REMOVE_FILES_ERROR": "{{ total }} не вдалося видалити, спробуйте ще раз або зверніться до своєї ІТ-команди.",
+            "EXCEED_MAX_FILE_SIZE": "Файл {{ fileName }} перевищує дозволений розмір файлу"
+        },
+        "ACTION": {
+            "UNDO": "Скасувати"
+        }
     }
 }
