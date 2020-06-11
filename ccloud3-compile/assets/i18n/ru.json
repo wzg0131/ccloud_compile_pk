@@ -555,9 +555,9 @@
             "LANG": "язык",
             "THEME": "тема",
             "THEMES": {
-                "DEFAULT": "По умолчанию",
+                "default": "По умолчанию",
                 "RED": "красный",
-                "DARK": "Темный режим"
+                "unicorn-dark-theme": "Темный режим"
             },
             "CHANGE_PASSWORD": "Изменить пароль",
             "PERSONAL_SETTING": "Персональная настройка",
@@ -847,10 +847,11 @@
         "CANCEL_UPGRADE": "Отмена обновления",
         "CANCELLING": "Отмена ...",
         "NETWORK_INFO": "сеть",
-        "Control_X16": "Control X16",
+      "X16_NOT_CONNECTED": "Видеопроцессор не подключен",
+        "Control_X16": "управляющий видеопроцессор",
         "Invalid_IP": "Неверный IP",
-        "X16_IP": "X16 IP",
-        "X16_Brightness": "X16 Яркость",
+        "X16_IP": "Видеопроцессор IP",
+        "X16_Brightness": "Видеопроцессор Яркость",
         "Presets": "Пресеты",
         "Save": "Сохранить",
         "SEARCH": "Поиск терминала",
@@ -1167,6 +1168,7 @@
         "CROP": "Crop",
         "DUPLICATE": "Дублированный",
         "DELETE": "удалять",
+        "DISABLE": "отключить",
         "KEEP_ASPECT_RATIO": "Сохранять пропорции",
         "RANDOM_EFFECT": "Случайный эффект",
         "CLOCK_STYLE": "Часы Стиль",
@@ -1361,6 +1363,8 @@
         }
     },
     "MEDIA": {
+      "SHARE_SUC": "Успешно поделился с「***」",
+      "SHARE_ERR": "Поделиться не удалось",
         "SAVE": "Сохранить",
         "ADD_TAG": "Добавить метку",
         "MEDIA": "СМИ",

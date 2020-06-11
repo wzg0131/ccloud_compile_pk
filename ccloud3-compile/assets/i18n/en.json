@@ -555,9 +555,9 @@
       "LANG": "Language",
       "THEME": "Theme",
       "THEMES": {
-        "DEFAULT": "Default",
         "RED": "Red",
-        "DARK": "Dark Mode"
+        "default": "Default",
+        "unicorn-dark-theme": "Dark Mode"
       },
       "CHANGE_PASSWORD": "Change password",
       "PERSONAL_SETTING": "Personal setting",
@@ -851,10 +851,11 @@
     "CANCEL_UPGRADE": "Cancel Upgrade",
     "CANCELLING": "Cancelling...",
     "NETWORK_INFO": "Network",
-    "Control_X16": "Control X16",
+    "X16_NOT_CONNECTED": "Video processor Not Connected",
+    "Control_X16": "Control video processor",
     "Invalid_IP": "Invalid IP",
-    "X16_IP": "X16 IP",
-    "X16_Brightness": "X16 Brightness",
+    "X16_IP": "Video processor IP",
+    "X16_Brightness": "Video processor Brightness",
     "Presets": "Presets",
     "Save": "Save",
     "SEARCH": "Terminal Search",
@@ -1171,6 +1172,7 @@
     "CROP": "Crop",
     "DUPLICATE": "Duplicate",
     "DELETE": "Delete",
+    "DISABLE": "Disable",
     "KEEP_ASPECT_RATIO": "Keep Aspect Ratio",
     "RANDOM_EFFECT": "Random Effect",
     "CLOCK_STYLE": "Clock Style",
@@ -1365,6 +1367,8 @@
     }
   },
   "MEDIA":{
+    "SHARE_SUC": "Successfully shared to「***」",
+    "SHARE_ERR": "Share failed",
     "SAVE": "Save",
     "ADD_TAG": "Add Tag",
     "MEDIA": "media",
